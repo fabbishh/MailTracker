@@ -1,6 +1,6 @@
-﻿using MailTracker.Application.Interfaces;
+﻿using MailTracker.Application.Dto;
+using MailTracker.Application.Interfaces;
 using MailTracker.Application.Interfaces.Repositories;
-using MailTracker.Domain.Entities;
 
 namespace MailTracker.Application.Services
 {
@@ -13,9 +13,20 @@ namespace MailTracker.Application.Services
             _employeeRepository = employeeRepository;
         }
 
-        public async Task<IEnumerable<Employee>> GetAllEmployeesAsync()
+        public async Task<IEnumerable<EmployeeDto>> GetAllEmployeesAsync()
         {
-            return await _employeeRepository.GetAllAsync();
+            var employees = await _employeeRepository.GetAllAsync();
+            var employeeDtos = new List<EmployeeDto>();
+            foreach (var employee in employees)
+            {
+                employeeDtos.Add(new EmployeeDto
+                {
+                    Id = employee.Id,
+                    Name = employee.Name,
+                });
+            }
+
+            return employeeDtos;
         }
     }
 }

@@ -14,7 +14,8 @@ namespace MailTracker.Application.Validators
                 .Must(date => date.Date >= DateTime.Today);
 
             RuleFor(request => request.RecipientId)
-                .GreaterThan(0);
+                .GreaterThan(0)
+                .Must((request, recipientId) => recipientId != request.SenderId);
 
             RuleFor(request => request.SenderId)
                 .GreaterThan(0);

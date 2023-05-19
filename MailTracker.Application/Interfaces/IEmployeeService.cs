@@ -1,9 +1,9 @@
-﻿using MailTracker.Domain.Entities;
+﻿using MailTracker.Application.Dto;
 
 namespace MailTracker.Application.Interfaces
 {
     public interface IEmployeeService
     {
-        Task<IEnumerable<Employee>> GetAllEmployeesAsync();
+        Task<IEnumerable<EmployeeDto>> GetAllEmployeesAsync();
     }
 }

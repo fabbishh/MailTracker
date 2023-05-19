@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailTracker.API", "MailTracker.API\MailTracker.API.csproj", "{405C5683-C82B-4779-8CCF-EE353ACE10F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailTracker.DataAccess", "MailTracker.DataAccess\MailTracker.DataAccess.csproj", "{275FB288-31F2-4232-987B-33339708F0D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailTracker.Domain", "MailTracker.Core\MailTracker.Domain.csproj", "{0FE4B771-AE52-400A-A23A-5ACCBBA1634D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailTracker.Application", "MailTracker.Application\MailTracker.Application.csproj", "{2CBFDCAE-33D0-45AD-AB97-7D5B4C060ADB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailTracker.Desktop", "MailTracker.Desktop\MailTracker.Desktop.csproj", "{4A18B3C2-BAE3-4177-A77F-F6A6680B3E36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{405C5683-C82B-4779-8CCF-EE353ACE10F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405C5683-C82B-4779-8CCF-EE353ACE10F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405C5683-C82B-4779-8CCF-EE353ACE10F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405C5683-C82B-4779-8CCF-EE353ACE10F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{275FB288-31F2-4232-987B-33339708F0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275FB288-31F2-4232-987B-33339708F0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275FB288-31F2-4232-987B-33339708F0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275FB288-31F2-4232-987B-33339708F0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE4B771-AE52-400A-A23A-5ACCBBA1634D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE4B771-AE52-400A-A23A-5ACCBBA1634D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE4B771-AE52-400A-A23A-5ACCBBA1634D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE4B771-AE52-400A-A23A-5ACCBBA1634D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBFDCAE-33D0-45AD-AB97-7D5B4C060ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBFDCAE-33D0-45AD-AB97-7D5B4C060ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBFDCAE-33D0-45AD-AB97-7D5B4C060ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBFDCAE-33D0-45AD-AB97-7D5B4C060ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A18B3C2-BAE3-4177-A77F-F6A6680B3E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A18B3C2-BAE3-4177-A77F-F6A6680B3E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A18B3C2-BAE3-4177-A77F-F6A6680B3E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A18B3C2-BAE3-4177-A77F-F6A6680B3E36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A592FD31-9D24-47FF-B9F5-174F1EFB16FB}
+	EndGlobalSection
+EndGlobal
